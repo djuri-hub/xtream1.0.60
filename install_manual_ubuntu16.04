@@ -6,7 +6,10 @@ apt-get install lsb-release nscd php5.6 php5.6-gd php5.6-xml php5.6-xmlrpc php5.
 apt-get install php5.6-dev php5.6-fpm mcrypt php5.6-mcrypt unzip &&  phpenmod mcrypt
 apt-get install apache2 apache2-utils libapache2-mod-php5.6 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libpq5 mysql-common php5.6-common -y
 service apache2 restart
-after install nulled xtream1.0.60 edit mysql
+put file xtream16.04_ubuntu.sh in root 
+use comand ./xtream16.04_ubuntu.sh
+licenca is adil
+after install panel put terminal comand 
 sudo sed -i "s/key_buffer/key_buffer_size/g" /etc/mysql/my.cnf
 sudo sed -i "s/myisam-recover/myisam-recover-options/g" /etc/mysql/my.cnf
 put in /etc/mysql/my.cnf

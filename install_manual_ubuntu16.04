@@ -1,1 +1,8 @@
-
+apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+apt-get update
+apt-get install lsb-release nscd php5.6 php5.6-gd php5.6-xml php5.6-xmlrpc php5.6-mbstring php5.6-gettext php5.6-mysql php5.6-cli php5.6-curl unzip curl libcurl3 libcurl3-dev
+apt-get install php5.6-dev php5.6-fpm mcrypt php5.6-mcrypt unzip &&  phpenmod mcrypt
+apt-get install apache2 apache2-utils libapache2-mod-php5.6 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libpq5 mysql-common php5.6-common -y
+service apache2 restart
